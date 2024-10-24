@@ -8,12 +8,7 @@ plugins {
 
 group = "com.project"
 version = "0.0.1-SNAPSHOT"
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
+java.sourceCompatibility = org.gradle.api.JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
