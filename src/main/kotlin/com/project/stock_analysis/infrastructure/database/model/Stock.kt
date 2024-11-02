@@ -12,5 +12,5 @@ data class Stock(
     val stockType: String,
     val sector: String,
     val country: String,
-    ) {
+) {
 }
