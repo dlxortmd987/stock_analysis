@@ -16,3 +16,8 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+
+feign:
+  openai:
+    name: openai
+    url: https://api.openai.com
