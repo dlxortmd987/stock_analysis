@@ -1,8 +1,9 @@
 package com.project.stock_analysis.domain.recommendation.service
 
-import org.springframework.stereotype.Service
+import com.project.stock_analysis.domain.recommendation.model.RecommendedStock
+import com.project.stock_analysis.domain.recommendation.model.StockRecommendQuery
+import com.project.stock_analysis.infrastructure.database.model.Stock
 
-//@Service
-//interface RecommendationService {
-//
-//}
+interface RecommendationService {
+    fun recommendStocks(query: StockRecommendQuery) : List<RecommendedStock>
+}

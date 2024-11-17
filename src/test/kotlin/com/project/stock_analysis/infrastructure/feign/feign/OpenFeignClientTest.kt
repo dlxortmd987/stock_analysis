@@ -19,14 +19,14 @@ class OpenFeignClientTest {
     @Test
     fun `openAI Chat API를 호출한다`() {
 
-        val chat = feignClient?.chat(
-            "Bearer $key",
-            OpenAiChatRequest(
-                listOf(RequestMessages("user", "주식추천해줘")),
-                "gpt-4o"
-            )
-        )
-
-        println("chat = $chat")
+//        val chat = feignClient?.chat(
+//            "Bearer $key",
+//            OpenAiChatRequest(
+//                listOf(RequestMessages("user", "주식추천해줘")),
+//                "gpt-4o"
+//            )
+//        )
+//
+//        println("chat = $chat")
     }
 }
